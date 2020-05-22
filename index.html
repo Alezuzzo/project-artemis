@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- CSS do Materialize-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css">
+  <!--Ícones do Materialize -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>Artemis</title>
+
+</head>
+
+<body>
+
+  <header>
+      <nav>
+         <!--Navbar na versão desktop -->
+          <div class="nav-wrapper">
+             <!-- Lista de Tópicos da versão desktop, que só aparece em telas grandes -->
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#Sobre">Sobre</a></li>
+              <li><a href="#Produtos">Produtos</a></li>
+              <li><a href="#Contato">Contato</a></li>
+            </ul>
+             <!--ícone do menu do modo mobile-->
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          </div>
+      </nav>
+       <!-- Aba que abre do menu mobile -->
+       <ul id="slide-out" class="sidenav">
+          <li><a href="#Sobre">Sobre Nós</a></li>
+          <li><a href="#Produtos">Produtos</a></li>
+          <li><a href="#Contato">Contato</a></li>
+        </ul>
+        <div class="parallax-container">
+          <div class="parallax"><img src="./assets/Desktop.png"></div>
+        </div>
+        <div><h1 class="art">ARTÊMIS</h1></div>
+        <div><h2 class="art2">Emane a confiança que existe em você</h2></div>
+  </header>
+
+  <!--SECTION 1 ABOUT-->
+  <section>
+    <h1 class="aboutbutton" id="Sobre">Sobre Nós</h1>
+    <p class="ourhistory">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+    <div class="parallax-container">
+      <div class="parallax"><img src="./assets/1.jpeg"></div>
+    </div>
+
+  </section>
+
+  <!--SECTION 2 PRODUCT-->
+  
+  <section class="product" id="Produtos">
+    <div class="buttonproduct">
+      <h1 class="productbutton">Produtos</h1>
+    
+
+    <div class="carousel carousel-slider center">
+      <div class="carousel-fixed-item center">
+        <a class="btn waves-effect white grey-text darken-text-2">COMPRAR</a>
+      </div>
+      <div class="carousel-item red white-text" href="#one!">
+        <img src="./assets/Roupa1.jpg" alt="">
+      </div>
+      <div class="carousel-item amber white-text" href="#two!">
+        <img src="./assets/Roupa2.jpg" alt="">
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <img src="./assets/Roupa3.jpg" alt="">
+      </div>
+      <div class="carousel-item blue white-text" href="#four!">
+        <img src="./assets/Roupa4.jpg" alt="">
+      </div>
+    </div>
+
+  </section>
+
+  <footer id="Contato">
+
+    <footer class="page-footer">
+
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Itajubá</h5>
+            <p class="grey-text text-lighten-4"><img class="img-contato1" src="assets/icon6.png">Praça Dona Amélia Braga, 65 - Centro</p>
+            <p class="grey-text text-lighten-4"><img class="img-contato2" src="assets/icon5.png">Número: (35)3662-1954</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Redes Sociais</h5>
+            <ul>
+              <li><a class="textsocial" href="instagram.com"><img src="assets/icon2.png" alt="" class="img-social"> instagram.com/artemis</a></li>
+              <li><a class="textsocial" href="facebook.com"><img src="assets/fb.png" alt="" class="faceb"> facebook.com/artemis</a></li>
+              <li class="entre"><a class="grey-text text-lighten-3" href="#!">Entre em contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="linkbyron">
+        <a href="www.byronsolutions.com"><img class="byron" src="./assets/byron.png" alt=""></a>
+      </div>
+
+    </footer>
+
+  </footer>
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+
+  <!-- Arquivo JavaScript do Materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Seu arquivo JavaScript -->
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
